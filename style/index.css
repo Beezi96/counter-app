@@ -1,0 +1,39 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+}
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+.container {
+    margin-top: 126px;
+    display: flex;
+    gap: 36px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter {
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.btn {
+    width: 500px;
+    height: 100px;
+    line-height: 44px;
+    font-size: 32px;
+    border-radius: 20px;
+    color: #FFF;
+    border: none;
+
+}
+
+.btn-counter {
+    background-color: #4191FF;
+}
+
+.btn-reset {
+    background-color: #D45366;
+}
